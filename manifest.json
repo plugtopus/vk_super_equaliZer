@@ -1,0 +1,62 @@
+{
+   "author": "Plugtopus Agency",
+   "homepage_url": "https://plugtopus.agency",
+   "background": {
+      "scripts": [ "core/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/128.png"
+   },
+   "commands": {
+      "next": {
+         "description": "Next",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaNextTrack"
+         }
+      },
+      "pause": {
+         "description": "Pause",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
+      },
+      "prev": {
+         "description": "Previous",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaPrevTrack"
+         }
+      },
+      "stop": {
+         "description": "Stop",
+         "global": true,
+         "suggested_key": {
+            "default": "MediaStop"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "core/cs.js" ],
+      "matches": [ "*://vk.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "externally_connectable": {
+      "matches": [ "*://vk.com/*" ]
+   },
+   "icons": {
+      "128": "img/128.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "\u003Call_urls>", "webRequest", "webRequestBlocking", "storage", "unlimitedStorage", "downloads", "identity" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.03.12.1",
+   "web_accessible_resources": [ "*.mp3", "*.png", "*.jpg", "*.gif", "*.ttf", "*.svg", "*.wav", "core/page.js" ]
+}

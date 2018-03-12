@@ -1,0 +1,43 @@
+{
+   "desc": {
+      "message": "Это расширение добавляет дополнительный функционал в стандартный плеер ВК. Всё, чего так не хватало: загрузка треков, биография исполнителя и даже слова песен, эквалайзер, Last.fm, управление плеером."
+   },
+   "name": {
+      "message": "Супер - эквалайзер для ВКонтакте™"
+   },
+   "short_name": {
+      "message": "Супер - эквалайзер"
+   },
+   "creator_code_link": {
+      "description": "Link to page author code",
+      "message": "https://plugtopus.agency"
+   },
+   "creator_code_name": {
+      "description": "Name author code",
+      "message": "Plugtopus Agency"
+   },
+   "creator_design_link": {
+      "description": "Link to page author design",
+      "message": "https://plugtopus.agency"
+   },
+   "creator_design_name": {
+      "description": "Name author design",
+      "message": "?????????"
+   },
+   "creator_media_link": {
+      "description": "Link to page author media",
+      "message": "https://plugtopus.agency"
+   },
+   "creator_media_name": {
+      "description": "Name author media",
+      "message": "?????????"
+   },
+   "elements_design_link": {
+      "description": "Link to page author media",
+      "message": "https://plugtopus.agency"
+   },
+   "elements_design_name": {
+      "description": "Name author media",
+      "message": "?????????"
+   }
+}
